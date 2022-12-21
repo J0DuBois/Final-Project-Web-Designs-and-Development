@@ -1,0 +1,39 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+li{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+}
+
+.cImage{
+    height: 550px;
+}
+
+
+@media only screen and (max-width:800px){
+    [class*="col-"] {
+        display: flex;
+        justify-content: center;
+    } 
+
+    .cImage{
+        height: 250px;
+    }
+
+    .dissapear{
+        display: none;
+    }
+
+
+    .form-footer{
+        display: block;
+        text-align: center;
+    }
+}
